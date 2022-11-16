@@ -1,0 +1,20 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/wordle.scss src/wordle.css",
+    "dev-server": "http-server src",
+    "dev-sass": "sass src/wordle.scss src/wordle.css --watch",
+    "dev": "npm run dev-server & npm run dev-sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.56.1"
+  }
+}
